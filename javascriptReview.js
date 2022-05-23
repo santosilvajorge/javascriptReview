@@ -34,4 +34,23 @@ console.log(newStr) */
 
 
 
-// 4. 
+/* // 4. Create a function to find and return the largest of three given integers.
+let int1 = 'John'
+let int2 = 'Jonas'
+let int3 = 'Jonathan'
+
+function maxValue() {
+    if (int1.length > int2.length && int1.length > int3.length){
+        console.log(`int1 is the largest, is called ${int1}, and has ${int1.length} letters!`)
+    } else if (int2.length > int1.length && int2.length > int3.length){
+        console.log(`int2 is the largest, is called ${int2}, and has ${int2.length} letters!`)
+    } else {
+        console.log(`int3 is the largest, is called ${int3}, and has ${int3.length} letters!`)
+    }
+}
+
+maxValue() */
+
+
+
+// 5. 
