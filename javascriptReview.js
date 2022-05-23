@@ -53,4 +53,15 @@ maxValue() */
 
 
 
-// 5. 
+/* // 5. Create a function to check if two numbers are in the range 40-60 or 70-100. Return true if they do, return false if one (or both) don't.
+function checkRange (n) {
+    if ((n >= 40 && n <= 60) || (n >= 70 && n <= 100)) {
+        return true
+    } else { return false}
+}
+
+console.log(checkRange(80)) */
+
+
+
+// 6. 
