@@ -64,4 +64,14 @@ console.log(checkRange(80)) */
 
 
 
-// 6. 
+// 6. Create a function to create a new string composed of a specified number of copies of a given string. 
+// Pass the string and the number of copies as parameters.
+let str = ''
+
+function strConcat (n, srtName) {
+    for (i = 0; i < n, i++) {
+        srtName.concat(strName)
+    }
+}
+
+console.log(strConcat(3, Jorge))
