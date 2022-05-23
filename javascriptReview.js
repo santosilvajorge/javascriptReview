@@ -25,4 +25,13 @@ if (a + b == 50 || a == 50 || b == 50) {
 
 
 
-// 
+/* // 3. Create a function to remove a character at a specified position from a given string: pass the position 
+ and the string as parameters, return the new string. 
+ let str = "Harry Pottery"
+ let newStr = str.substr(0, str.length - 1)
+
+console.log(newStr) */
+
+
+
+// 4. 
