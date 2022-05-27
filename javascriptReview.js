@@ -96,4 +96,39 @@ const copyStr = (str, n) => {
 
 
 
-  // 8. 
+ /*  // 8. Create a function to calculate and return the sum of all elements from an array with 3 elements. 
+  // Pass the array as a parameter.
+  function sumOfElements(arr) {
+    let res = 0;
+
+    for (let i = 0; i < arr.lenght; i ++) {
+        res += arr[i]
+    }
+
+    return res
+  }
+
+  console.log(sumOfElements([53, 7])) */
+
+
+
+  /* // 9. Create a function to test if an array of length 2 contains 1 OR 3. 
+  // Return true is it does, false if it doesn't.
+  function includes1or3(arr) {
+    let isNumFound = false
+  
+    for (let i = 0; i < arr.length; i++) {
+      const number = arr[i]
+      if (number === 1 || number === 3) {
+        isNumFound = true
+      }
+    }
+  
+    return isNumFound
+  }
+
+  console.log(includes1or3([5, 4])); */
+
+
+
+  // 10. 
