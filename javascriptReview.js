@@ -79,4 +79,21 @@ const copyStr = (str, n) => {
 
 
 
-  // 7. 
+/*   // 7. Create a function to display the city name if the string begins with "Los" or "New". 
+  // Pass the city name as a parameter. Return false if they start with a different string.
+   
+  function newOrLos (cityName) {
+      let first3Letters = cityName.slice(0, 3)
+
+      if (first3Letters == 'Los' || first3Letters == 'New') {
+          return cityName
+      } else {
+          return false
+      }
+  }
+
+  console.log(newOrLos('Los Angeles')) */
+
+
+
+  // 8. 
