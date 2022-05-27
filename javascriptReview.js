@@ -131,4 +131,33 @@ const copyStr = (str, n) => {
 
 
 
-  // 10. 
+ /*  // 10. Create a function to test if an array of length 2 DOES NOT contain 1 or 3. 
+  //Return true if it doesn't, false if it does.
+  function includes1or3(arr) {
+    let isNumFound = true
+  
+    for (let i = 0; i < arr.length; i++) {
+      const number = arr[i]
+      if (number === 1 || number === 3) {
+        isNumFound = false
+      }
+    }
+  
+    return isNumFound
+  }
+
+  console.log(includes1or3([3, 4])); */
+
+
+
+  // 11. Create a function to find the longest string from a given array of strings. 
+  // Pass the array as parameter and return the longest string.
+  function longestString(arr) {
+      for (let i=0; i < arr.lenght; i++){
+          if (arr[i] > arr[i-1]){
+              return arr[i]
+          } 
+      }
+  }
+
+  console.log(longestString(['duck', 'large', 'Duffy Duck']))
