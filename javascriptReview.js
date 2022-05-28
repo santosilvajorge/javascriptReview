@@ -150,20 +150,19 @@ const copyStr = (str, n) => {
 
 
 
-/*   // 11. Create a function to find the longest string from a given array of strings. 
+ /*  // 11. Create a function to find the longest string from a given array of strings. 
   // Pass the array as parameter and return the longest string.
   function longestString(arr) {
-      for (let i=0; i < arr.lenght; i++){
+      for (let i=0; i < arr.length; i++){
           let str = arr[i];
-
-          if (arr[i].lenght > arr[i-1].lenght){
-              console.log(str)
+          let lastStr = arr[i-1]
+          if (arr[i].length > lastStr.length){
+              return str
           } 
       }
   }
 
-  console.log(longestString(['duck', 'large', 'Duffy Duck']))
- */
+  console.log(longestString(['duck', 'large', 'Duffy Duck'])) */
 
 
 /*   // 12. Create a function to find the types of a given angle:
@@ -190,4 +189,23 @@ console.log(angleType(190)) */
 
 
 
-// 13. 
+/* // 13. Create a function to find and return the index of the greatest element 
+// of a given array of integers that you passed as a parameter.
+
+function findGreatestInt(arr) {
+    let maxFound = 0
+    for (let i = 0; i < arr.length; i++) {
+    const currNum = arr[i]
+        if (maxFound < currNum) {
+            maxFound = currNum
+        }
+    }
+    const indexOfNumFound = arr.indexOf(maxFound)
+  return indexOfNumFound
+}
+
+console.log(findGreatestInt([10000, 9999, 849])) */
+
+
+
+// 14. 
