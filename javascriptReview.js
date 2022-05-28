@@ -150,14 +150,25 @@ const copyStr = (str, n) => {
 
 
 
-  // 11. Create a function to find the longest string from a given array of strings. 
+/*   // 11. Create a function to find the longest string from a given array of strings. 
   // Pass the array as parameter and return the longest string.
   function longestString(arr) {
       for (let i=0; i < arr.lenght; i++){
-          if (arr[i] > arr[i-1]){
-              return arr[i]
+          let str = arr[i];
+
+          if (arr[i].lenght > arr[i-1].lenght){
+              console.log(str)
           } 
       }
   }
 
   console.log(longestString(['duck', 'large', 'Duffy Duck']))
+ */
+
+
+  // 12. Create a function to find the types of a given angle:
+//Acute angle ⇒ between 0 and 90 degrees. Return acute.
+//Right angle ⇒ 90 degree. Return right
+//Obtuse angle ⇒ between 90 and 180. Return obtuse
+//Straight angle ⇒ 180 degrees. Return straight
+
