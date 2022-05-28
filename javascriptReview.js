@@ -166,9 +166,28 @@ const copyStr = (str, n) => {
  */
 
 
-  // 12. Create a function to find the types of a given angle:
+/*   // 12. Create a function to find the types of a given angle:
 //Acute angle ⇒ between 0 and 90 degrees. Return acute.
 //Right angle ⇒ 90 degree. Return right
 //Obtuse angle ⇒ between 90 and 180. Return obtuse
 //Straight angle ⇒ 180 degrees. Return straight
 
+function angleType(angle)  {
+    if (angle >=0 && angle <90){
+        return `Acute Angle with ${angle} degrees!`
+    } else if (angle == 90){
+        return `Right Angle!`
+    } else if (angle >90 && angle <=180){
+        return `Obtuse Angle with ${angle} degrees!`
+    } else if (angle == 180){
+        return `Straight Angle!`
+    } else {
+        return 'this is not a regular angle'
+    }
+}
+
+console.log(angleType(190)) */
+
+
+
+// 13. 
